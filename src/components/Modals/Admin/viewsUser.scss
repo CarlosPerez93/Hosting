@@ -1,0 +1,14 @@
+.views-user {
+  width: 60vw;
+  &__item {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    align-items: center;
+    flex-wrap: wrap;
+    .input-component2 {
+      flex: 1 !important;
+      display: flex;
+    }
+  }
+}

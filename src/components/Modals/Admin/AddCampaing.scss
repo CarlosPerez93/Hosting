@@ -1,0 +1,125 @@
+.add-campaing {
+  width: 60vw;
+  height: auto;
+  max-height: auto;
+  overflow: auto;
+  padding-bottom: 60px;
+  position: relative;
+
+  input[type="file"] {
+    color: rgba(0, 0, 0, 0);
+    cursor: pointer !important;
+  }
+
+  .image-upload {
+    margin-top: 10px;
+   
+   
+  }
+
+  .item-row{
+    flex: 0.5;
+    font-size: medium;
+    padding-left: 20px;
+   
+  }
+
+  .iconDel {
+    color: $orange-color;
+    cursor: pointer;
+  }
+  .image-upload > input {
+    display: none;
+    
+  }
+
+  #w-11{
+    span{
+      margin-top: 50px !important; 
+    }
+  }
+
+  .add-file {
+    border: 1px solid#021442;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  input[type="file"]::-webkit-file-upload-button {
+    width: 30%;
+    padding: 10px 2px;
+    margin: 10px 0;
+    font-size: "Roboto";
+    font-style: normal;
+    background: #ffffff;
+    border: 1px solid #adaabf;
+    box-sizing: border-box;
+    border-radius: 10px;
+  }
+  input[type="file"]::-ms-browse {
+    width: 30%;
+    padding: 10px 2px;
+    font-size: "Roboto";
+    font-style: normal;
+    background: #ffffff;
+    border: 1px solid #adaabf;
+    box-sizing: border-box;
+    border-radius: 10px;
+  }
+
+  span {
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: 0.01em;
+    color: #818e9b;
+    margin: 14px auto;
+  }
+
+  h4 {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #021442;
+  }
+  input[type="checkbox"],
+  input[type="radio"] {
+    margin: 10px auto;
+    display: block;
+  }
+
+  .ant-upload {
+    &-picture-card-wrapper {
+      display: flex;
+      font-weight: bold;
+      font-size: 12px;
+      line-height: 163.42%;
+      color: #858585;
+    }
+
+    &-select-picture-card {
+      background: #fafaff;
+      box-shadow: 0px 14px 20px rgba(0, 0, 0, 0.1), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 10px;
+      border: transparent;
+      width: 150px;
+      svg {
+        width: 46px;
+        height: 46px;
+      }
+    }
+  }
+  .submit {
+    background: #5855d6;
+    border-radius: 35px;
+    color: white;
+    bottom: 0px;
+    padding: 10px 30px;
+    position: absolute;
+    right: 10px;
+    align-self: center;
+    border: transparent;
+  }
+}

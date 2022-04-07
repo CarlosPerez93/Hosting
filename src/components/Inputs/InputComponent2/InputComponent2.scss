@@ -1,0 +1,35 @@
+.input-component2 {
+  position: relative;
+  margin-bottom: 10px;
+  p {
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: 0.01em;
+    color: #818e9b;
+  }
+  .error-custom{
+    color: $orange-color !important;
+  }
+
+  input[type="checkbox"] {
+    position: absolute;
+    top: -4px;
+    box-shadow: 0px 14px 20px transparent !important;
+  }
+
+  input,
+  select,
+  .ant-select {
+    margin-top: 10px;
+    width: 100%;
+    background: transparent;
+    border: 0px;
+    border-bottom: 1px solid #818e9b;
+    padding: 5px 10px;
+    font-size: "Roboto";
+    font-style: normal;
+    color: #323c47;
+    margin-bottom: 5px;
+  }
+}

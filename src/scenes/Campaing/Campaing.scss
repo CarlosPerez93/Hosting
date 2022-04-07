@@ -1,0 +1,38 @@
+.campaing {
+  background: #ffffff;
+  border-radius: 20px;
+  margin: 2%;
+  padding: 1.5%;
+  height: 100%;
+  min-height: 75vh;
+  position: relative;
+  h3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #333269;
+  }
+  .Icons {
+    svg {
+      font-size: 25px;
+      margin: auto 5px;
+    }
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 15px;
+    button {
+      padding: 5px 20px !important;
+      margin: 0;
+    }
+    @media screen and (max-width: 642px) {
+      display: flex;
+      flex-direction: column;
+      br {
+        display: none;
+      }
+      padding: 0;
+    }
+  }
+}

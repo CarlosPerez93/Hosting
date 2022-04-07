@@ -1,0 +1,21 @@
+.progress {
+  width: auto;
+  padding-bottom: 20px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  .input-component {
+    width: 15vw;
+    margin: 10px;
+    input {
+      border: 1px solid #65708d46;
+    }
+  }
+  @media screen and (max-width: $s-medium) {
+    flex-direction: column;
+    width: 60vw;
+    .input-component {
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,43 @@
+.input-component {
+  position: relative;
+  margin-bottom: 10px;
+  p {
+    color: #322b5f;
+    font-weight: 500;
+    font-size: 14px;
+    color: #BECB4C;
+    line-height: 150%;
+  }
+
+  input[type="checkbox"] {
+    position: absolute;
+    top: -4px;
+    box-shadow: 0px 14px 20px transparent !important;
+  }
+
+
+  .ant-select-single:not(.ant-select-customize-input) .ant-select-selector {
+    border-radius: 10px !important;
+    color: #322b5f8e;
+  }
+  .ant-select {
+    padding: 0px !important;
+    border-radius: 10px;
+
+  }
+  input,
+  select,
+  .ant-select {
+    margin-top: 10px;
+    width: 100%;
+    background: #fafaff;
+    box-shadow: 0px 14px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    border: 0px;
+    padding: 5px 10px;
+    font-size: "Roboto";
+    font-style: normal;
+    color: #322b5f8e;
+    margin-bottom: 5px;
+  }
+}

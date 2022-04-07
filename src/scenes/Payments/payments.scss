@@ -1,0 +1,43 @@
+.payments {
+  background: #ffffff;
+  border-radius: 20px;
+  margin: 2%;
+  padding: 1.5%;
+  height: 100%;
+  min-height: 75vh;
+
+  input {
+    width: 50%;
+    border: 1px solid;
+  }
+  h3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    margin: 35px;
+    color: #333269;
+  }
+
+  .Icon {
+    svg {
+      font-size: 25px;
+      margin: auto 5px;
+    }
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 15px;
+    button {
+      padding: 5px 20px !important;
+      margin: 0;
+    }
+    @media screen and (max-width: 642px) {
+      display: flex;
+      flex-direction: column;
+      br {
+        display: none;
+      }
+      padding: 0;
+    }
+  }
+}

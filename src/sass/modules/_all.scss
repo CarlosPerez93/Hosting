@@ -1,0 +1,29 @@
+//Components
+
+@import './../../components/Inputs/InputComponent/InputComponent.scss';
+@import './../../components/Layout/Sidebar/sidebar.scss';
+@import './../../components/Layout/Header/Header.scss';
+@import './../../components/Inputs/InputComponent2/InputComponent2.scss';
+@import './../../components/Modals/Admin/AddCampaing.scss';
+@import './../../components/Modals/Admin/AddUser.scss';
+@import './../../components/Modals/Company/progress.scss';
+@import './../../components/Modals/Admin/AddPlan.scss';
+@import './../../components/Modals/Admin/SeeMultimedia.scss';
+@import './../../components/Loading/Loading.scss';
+@import './../../components/OrgChart/template.scss';
+@import './../../components/Modals/Admin/viewsUser.scss';
+
+@import './../../scenes/Auth/Login/Login.scss';
+@import './../../scenes/Auth/Register/Register.scss';
+@import './../../scenes/Campaing/Campaing.scss';
+@import './../../scenes/CampaingCompany/campanigCompany.scss';
+@import './../../scenes/ChartsCompany/ChartsCompany.scss';
+@import './../../scenes/Users/Users.scss';
+@import './../../scenes/Profile/profile.scss';
+@import './../../scenes/Companys/Company.scss';
+@import './../../scenes/Plan/planUser.scss';
+@import './../../scenes/Progress/progressUser.scss';
+@import './../../scenes/Progress/progressCompany.scss';
+@import './../../scenes/Payments/payments.scss';
+@import './../../scenes/Testimony/testimony.scss';
+@import './../../scenes/Auth/Payment/Payment.scss';
